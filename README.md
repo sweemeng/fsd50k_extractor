@@ -13,7 +13,7 @@ These have several script
 # Usage
 ## Environmental variable
 * set the path to the ground truth csv path
-* export `export DCASE_PATH="/somepath/somewhere/FSD50K.ground_truth/dev.csv"`
+* export `export FSD_PATH="/somepath/somewhere/FSD50K.ground_truth/dev.csv"`
 
 ## installation
 * `pipenv install`

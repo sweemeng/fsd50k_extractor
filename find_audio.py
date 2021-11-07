@@ -1,7 +1,7 @@
 import argparse
 
 import utils
-from dcase import DCaseData
+from fsd import FSData
 
 
 def main():
@@ -9,7 +9,7 @@ def main():
     parser.add_argument("label", metavar="label", type=str, help="label used by dataset")
     parser.add_argument("-s", "--show-labels", action="store_true", help="show category of file")
     parser.add_argument("-x", "--exclude", action="store", type=str, help="exclude options")
-    data = DCaseData()
+    data = FSData()
     args = parser.parse_args()
     results = utils.fetch_files(args)
 

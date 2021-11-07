@@ -2,10 +2,10 @@ import csv
 import os
 
 # DATA_PATH = "/media/sweemeng/New Volume/fsk50k/fsd50k/FSD50K.ground_truth/dev.csv"
-DATA_PATH=os.getenv("DCASE_PATH")
+DATA_PATH=os.getenv("FSD_PATH")
 
 
-class DCaseData:
+class FSData:
     def __init__(self, path=DATA_PATH):
         self.data_map = {}
         self.path = path

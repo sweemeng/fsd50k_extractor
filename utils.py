@@ -1,8 +1,8 @@
-from dcase import DCaseData
+from fsd import FSData
 
 
 def fetch_files(args):
-    data = DCaseData()
+    data = FSData()
     labels = set(args.label.split(","))
     excludes = None
     if args.exclude:
