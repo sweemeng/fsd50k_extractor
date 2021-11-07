@@ -11,6 +11,10 @@ These have several script
 * sound_category.py - this is to show the category of a file
 
 # Usage
+## Environmental variable
+* set the path to the ground truth csv path
+* export `export DCASE_PATH="/somepath/somewhere/FSD50K.ground_truth/dev.csv"`
+
 ## installation
 * `pipenv install`
 * Start the shell with `pipenv shell` then use the script as described below. 
